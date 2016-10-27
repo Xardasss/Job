@@ -1,0 +1,1329 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background: #f2f2f2;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a img {
+    border: none;
+   
+}
+/*.sidebarBox a img{
+	width: 80%
+}*/
+#content a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.left {
+    width: 100%;
+    text-align: s left;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#container {
+    max-width: 1043px;
+    min-height: 1200px;
+    background: #fff;
+    text-align: left;
+    position: relative;
+    padding: 0 23px 10px;
+    margin: 5px auto 0;
+}
+
+#header {
+    position: relative;
+   
+   
+}
+
+#header1 {
+    position: relative;
+    height: 120px;
+    padding-top: 140px;
+}
+
+#logo {
+  
+    background: url(http://healthplusnews.com/garcinia-my/my2/index2_files/logo2.png) no-repeat 0 10px;
+    
+    height: 48px;
+        padding: 4px 0 18px;
+}
+
+.poz1 {
+    top: 35px;
+    left: 23px;
+    padding: 5px 0 0 50px;
+}
+
+.poz2 {
+    top: 30px;
+    left: 23px;
+    padding: 25px 0 0 90px;
+}
+
+.poz3 {
+    top: 25px;
+    left: 23px;
+    padding: 15px 0 0 60px;
+}
+
+#logo a {
+    display: block;
+    text-decoration: none;
+    color: #747373;
+    font-size: 40px;
+    letter-spacing: -2px;
+        padding-left: 51px;
+}
+
+#logo a span {
+    font-size: 28px;
+    margin-left: 3px;
+}
+
+#dot1 {
+    width: 2px;
+    height: 2px;
+    background: #747373;
+    position: absolute;
+    top: 72px;
+    left: 214px;
+}
+
+#dot2 {
+    width: 2px;
+    height: 2px;
+    background: #747373;
+    position: absolute;
+    top: 83px;
+    left: 254px;
+}
+
+#dot3 {
+    width: 2px;
+    height: 2px;
+    background: #747373;
+    position: absolute;
+    top: 70px;
+    left: 224px;
+}
+
+#top-nav {
+    position: absolute;
+    top: 116px;
+    left: 725px;
+    font: 13px 'Lucinda Grande', Arial, Geneva, sans-serif;
+    font-weight: 100;
+    width: 244px;
+    z-index: 99;
+    padding: 0 0 0 30px;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: #7f7d7d;
+    padding: 0 8px;
+}
+
+#top-nav a:hover {
+    color: #000;
+}
+
+#artHead {
+    margin-left: 30px;
+}
+
+#artHead h1 {
+    font-size: 24px;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+.divider1,
+.divider2 {
+    border-bottom: 1px solid #ebebeb;
+ 
+
+    left: 20px;
+}
+
+.divider1 {
+    top: 10px;
+    font-size: 12px;
+    color: #747373;
+    text-align: right;
+    padding: 10px 5px 3px;
+}
+
+.divider2 {
+    top: 105px;
+}
+
+.top_right {
+    float: right;
+    height: 24px;
+    display: inline;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    font-size: 11px;
+}
+
+.top_right span {
+    float: left;
+    margin-top: 5px;
+}
+
+.top_right .like_btn,
+.top_right .like_btn img {
+    float: left;
+    margin-right: 2px;
+}
+
+.top_right p {
+    float: left;
+    width: 285px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #000;
+    font-weight: 700;
+    padding: 8px 0 0 5px;
+}
+
+.top_right p a {
+    float: left;
+    text-decoration: none;
+}
+
+.top_right p a img {
+    float: left;
+    margin-right: 3px;
+    display: inline;
+}
+
+#navbar {
+ 
+
+    left: 20px;
+   
+   
+    background: #6da900;
+    z-index: 999;
+    overflow: hidden;
+}
+
+#navbar ul {
+   
+    margin: 0px 0 0 -40px;
+
+  
+}
+
+#navbar ul li {
+    float: left;
+    list-style-type: none;
+    background: url(http://healthplusnews.com/garcinia-my/my2/index2_files/li-border.png) no-repeat right -2px;
+    font-size: 14px;
+ position: relative;
+ padding: 6px 0px;
+
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: .5px;
+    padding: 5px 10px 6px;
+}
+
+/*#navbar ul li a:hover,
+#navbar ul li:hover a {
+    color: #E2E2E2;
+    display: block;
+    margin-top: 0;
+    text-shadow: none;
+    padding: 0 3px 3px;
+}*/
+
+#content {
+    padding-top: 20px;
+    color: #000000;
+    font-size: 15px;
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 20px;
+   
+}
+
+.sidebarBox2 {
+ 
+    
+    position: relative;
+    background: #F7F7F7;
+    padding: 5px;
+    border: 1px solid #E6E6E6;
+    margin-top: 20px;
+}
+
+#socialBar {
+    position: absolute;
+    height: 30px;
+    top: -10px;
+    left: 680px;
+    padding: 5px 0;
+    background: url('http://healthnews24.co/my/index2_files/sb.png') no-repeat center top;
+    width: 322px;
+}
+
+.imgWrap {
+    height: 350px;
+}
+
+#content h1#main {
+    color: #3E3E3E;
+    float: none;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 33px;
+    margin:0;
+}
+
+#content p,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    line-height: 20px;
+}
+
+.art p {
+    width: 650px;
+}
+
+.wypis {
+    color: #5f5f5f;
+    margin-bottom: 25px;
+    width: 640px;
+    position: relative;
+    padding: 20px 9px 9px;
+}
+
+.wypis a {
+    color: #265a90;
+}
+
+.wypis .comments {
+    position: absolute;
+    top: 44px;
+    right: 6px;
+    background: url(http://healthnews24.co/my/index2_files/comments.gif) no-repeat;
+    padding-left: 20px;
+}
+
+#text {
+    min-height: 110px;
+    line-height: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: #282828;
+    margin: 8px 0 10px;
+}
+
+#text img {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 5px 15px 5px -9px;
+    padding: 5px;
+}
+
+#text p {
+    margin-bottom: 7px;
+}
+
+#article-title a {
+    font-size: 24px;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -1px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+#data {
+    background: url(http://healthnews24.co/my/index2_files/bg-data.gif) no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 56px;
+    text-align: center;
+    width: 56px;
+    margin: 0 7px 0 -8px;
+}
+
+#data p {
+    color: #5F5F5F;
+    font-family: "Trebuchet MS", Arial, Geneva, sans-serif;
+    ;
+    font-size: 22px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+#data p span {
+    font-size: 18px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.wcm {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.tags {
+    font-size: 12px;
+    height: 16px;
+    background: url(http://healthnews24.co/my/index2_files/tag.gif) no-repeat top left;
+    padding-left: 20px;
+    margin: 5px 0 0 60px;
+}
+
+.tags a {
+    text-decoration: underline;
+    color: #5f5f5f;
+}
+
+.tags a:hover {
+    text-decoration: none;
+}
+
+.relHead {
+    width: 650px;
+    height: 45px;
+    background: #F7F7F7;
+    border-bottom: 1px dotted #A5A5A5;
+    position: relative;
+}
+
+.relHead h2 {
+    width: 175px;
+    height: 27px;
+    display: block;
+    background: #fff;
+    border: 1px solid #A5A5A5;
+    border-bottom: none;
+    color: #9A3A84;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: 400;
+    left: 50px;
+    top: 15px;
+    position: absolute;
+    margin: 0;
+    padding: 3px 30px 0;
+}
+
+ul.relList {
+    width: 650px;
+    margin-left: -40px;
+}
+
+ul.relList li {
+    list-style: none;
+    float: left;
+    width: 130px;
+    font-size: 11px;
+    color: #A5A5A5;
+    text-align: center;
+}
+
+#sidebar {
+    width: 30%;
+    float: right;
+    z-index: 997;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+   
+}
+
+.sidebarBox {
+  
+    position: relative;
+    background: #F7F7F7;
+    padding: 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.sideBox {
+    width: 300px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #CECECE;
+    position: relative;
+    margin: 5px auto;
+}
+
+.sideBox h1 {
+    position: absolute;
+    left: 15px;
+    top: -30px;
+    font-size: 25px;
+    font-style: italic;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sideBox .head {
+    position: absolute;
+    left: 5px;
+    top: -21px;
+    height: 20px;
+    width: 200px;
+    background: #fff;
+    border: 1px solid #CECECE;
+    border-bottom: none;
+}
+
+.sideBox .comments {
+    position: absolute;
+    top: 19px;
+    left: 230px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    height: 16px;
+    width: 30px;
+    background: url(http://healthnews24.co/my/index2_files/sidebar-comments.png) no-repeat;
+    line-height: 16px;
+    padding-left: 13px;
+    font-wieght: bold;
+}
+
+.sideBox img.sb {
+    float: left;
+    width: 80px;
+    margin: 20px 0 0 15px;
+}
+
+.sideBox p {
+    float: left;
+    width: 175px;
+    text-align: left;
+    margin-left: 8px;
+}
+
+a.h1 {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a.h2 {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 18px;
+}
+
+.sideArrow {
+    background: url(http://healthnews24.co/my/index2_files/box-cap-arrow.png);
+    height: 22px;
+    width: 37px;
+    position: absolute;
+    left: 75%;
+    bottom: -21px;
+    z-index: 1001;
+}
+
+.social-sidebar ul,
+.sidebar-trending ul,
+.sidebar-popular ul {
+    clear: both;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-sidebar ul li,
+.sidebar-trending ul li,
+.sidebar-popular ul li {
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    list-style: none outside none;
+    text-align: left;
+}
+
+.social-sidebar {
+    background-color: #FFF;
+    border: 1px solid #D7D7D7;
+    float: right;
+    position: relative;
+    width: 279px;
+    margin: 30px 0;
+    padding: 0 10px 10px;
+}
+
+.social-sidebar ul {
+    border: 1px solid #DEDEDE;
+}
+
+.social-sidebar li {
+    border-color: #FFF 0 #DEDEDE;
+    border-style: solid none;
+    border-width: 1px 0;
+    padding: 10px;
+}
+
+.social-sidebar li.twitter {
+    background-color: #EEE;
+}
+
+.social-sidebar li.googleplus {
+    background-color: #E6E6E6;
+}
+
+.social-sidebar li.googleplus span,
+.social-sidebar li.pinterest span {
+    color: #333;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1px;
+    margin-left: 4px;
+    vertical-align: text-top;
+}
+
+.social-sidebar li.share {
+    border: medium none;
+    color: #004179;
+}
+
+.social-sidebar li.share a {
+    color: #004179;
+    line-height: 20px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.social-sidebar li.share a.rss {
+    background: url(http://healthnews24.co/my/index2_files/sidebar-rss.png) no-repeat scroll left center transparent;
+}
+
+.social-sidebar li.share a.newsletters {
+    background: url(http://healthnews24.co/my/index2_files/sidebar-newsletters.png) no-repeat scroll left center transparent;
+}
+
+.ie.ie7 .social-sidebar li.googleplus {
+    display: none;
+}
+
+.sbh {
+    position: absolute;
+    left: 5px;
+    top: -35px;
+    font-size: 25px;
+    font-style: italic;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sideBox2 {
+    border-top: 1px dotted #D7D7D7;
+    position: relative;
+    width: 299px;
+    padding-top: 20px;
+    margin: 100px 0 0 20px;
+}
+
+table#popular {
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+table#popular img {
+    width: 90px;
+}
+
+.behere {
+    width: 995px;
+    margin: auto;
+}
+
+.right,
+.read-more {
+    width: 100%;
+    text-align: right;
+}
+
+.posted a:hover,
+a.h2:hover,
+#footer a:hover {
+    text-decoration: none;
+}
+
+#navbar ul li.last {
+    background: none;
+}
+
+#comments {
+   
+    background: none repeat scroll 0 0 #fff;
+    margin-top: 20px;
+}
+
+
+
+#comments .d1 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#comments .d2 {
+    padding-left: 10px;
+    color: #666;
+}
+
+#comments .d3 {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#comments h1 {
+    color: #6da900;
+    line-height: 150%;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+#comments h2 {
+    margin: 40px 0 0 20px;
+    color: #6da900;
+    border-top: 1px solid #e8e8e8;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+#comments .comment {
+    background: none repeat scroll 0 0 #fff;
+    border-top: 1px solid #e8e8e8;
+  
+    padding: 5px;
+    line-height: 120%;
+}
+
+#comments .padd {
+    margin-top: 15px;
+}
+
+#comments .text1 {
+    color: #6da900;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 12px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#comments .text2 {
+    float: right;
+    color: #666;
+    font-size: 10px;
+}
+
+#comments .text3 {
+    clear: both;
+    color: #333;
+    padding-top: 8px;
+    font-size: 11px;
+    position: relative;
+}
+
+#commentform {
+    margin-left: 20px;
+}
+
+.comimg {
+    width: 25px;
+    height: 25px;
+    background: url(comment_user_img.jpg) no-repeat;
+    float: left;
+}
+
+#submit {
+    background: #6da900/*#6da900*/
+    ;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px;
+    width: 180px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#footer {
+    font-size: 11px;
+    height: 40px;
+    width: 1000px;
+    border-top: 1px solid #ebebeb;
+    margin: 10px auto 0 auto;
+    text-align: left;
+}
+
+#footer a {
+    color: #6da900;
+    text-decoration: none;
+}
+
+#footer ul {
+    margin-left: -45px;
+}
+
+#footer ul li {
+    float: left;
+    list-style: none;
+    margin: 0 8px;
+}
+
+label {
+    color: #333;
+}
+
+.tresc {
+    margin-top: 17px;
+    background: #F7F7F7;
+    display: block;
+    padding: 4px;
+}
+
+.video2 {
+    margin: 0px 0 40px 0;
+    position: relative;
+}
+
+.evp-video-wrap {
+    position: absolute!important;
+    top: 0px!important;
+    left: 15px!important;
+}
+
+.vidtxt {
+    width: 365px!important;
+}
+
+a.nodec {
+    color: blue;
+    text-decoration: none;
+}
+
+a.nodec:hover {
+    text-decoration: none;
+}
+
+#print {
+    position: absolute;
+    left: 640px;
+    top: 3px;
+    background: url('http://healthnews24.co/my/index2_files/print.png') no-repeat center top;
+    height: 36px;
+    width: 48px;
+}
+
+.straight {
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    z-index: 99;
+    width: 300px;
+    height: 19px;
+}
+
+#picture {
+    position: relative;
+    height: 314px;
+    width: 500px;
+    background: url(before_after_weight_loss1.jpg) no-repeat;
+}
+
+.pic {
+    width: 110px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    color: #fff;
+    text-align: center;
+}
+
+.pic1 {
+    right: 235px;
+}
+
+.fb_right {
+    height: 26px;
+    overflow: visible;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 11px 0 0 0;
+    text-decoration: none;
+}
+
+.fb_right:hover {
+    text-decoration: none;
+}
+
+#ll {
+    width: 25px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    background-image: url(http://healthnews24.co/my/index2_files/fblikel.png);
+    background-repeat: no-repeat;
+}
+
+#lm {
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    background-image: url(http://healthnews24.co/my/index2_files/fblikem.png);
+    background-repeat: repeat-x;
+}
+
+#lr {
+    width: 33px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    background: url(http://healthnews24.co/my/index2_files/fbliker.png) no-repeat left
+}
+
+#rek {
+    display: block;
+    height: 500px;
+    width: 300px;
+    background: url('http://healthnews24.co/my/index2_files/rek.jpg') no-repeat center top;
+    text-align: center;
+    text-decoration: none;
+}
+
+#rek h1 {
+    color: #000;
+    font-size: 24px;
+    padding-top: 30px;
+    margin: 0;
+    height: 74px;
+}
+
+#rek h2 {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    width: 300px;
+    text-align: center;
+    background: url('http://healthnews24.co/my/index2_files/rek.png') no-repeat center top;
+}
+
+.info,
+.success,
+.warning,
+.error,
+.validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('http://healthnews24.co/my/index2_files/warning-24-ns.png');
+}
+
+.fat_burn_img {
+    
+    height: 278px;
+    background: url(http://healthplusnews.com/garcinia-my/my2/index2_files/fat-burn2.png) no-repeat;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    max-width: 531px;
+    
+}
+
+.fat_burn_img .blue {
+    color: #1449A3;
+}
+
+.fat_burn_img .slim {
+    font-weight: normal;
+}
+
+.fat_burn_imt_txt1 {
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 15px;
+    
+}
+
+.fat_burn_imt_txt2 {
+    margin-left: 360px;
+    position: absolute;
+    margin-top: 10px;
+ 
+}
+
+.fat_burn_imt_txt3 {
+    position: absolute;
+    font-size: 9px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 69px;
+    height: 50px;
+    text-align: center;
+   
+}
+
+.fat_burn_imt_txt4 {
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 240px;
+    font-size: 9px;
+    
+}
+
+.fat_burn_imt_txt5 {
+    margin-left: 330px;
+    position: absolute;
+    margin-top: 240px;
+    font-size: 9px;
+   
+}
+
+
+
+
+
+
+
+.spider {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.fixclass{
+	margin-right: 23px;
+	max-width: 301px;
+
+}
+
+.sticky-wrapper{
+	margin-right: -23px;
+}
+
+@media(max-width: 840px){
+
+	.fat_burn_img{
+		background-size: 100%
+	}
+}
+
+
+.line{
+	display: none;
+	height: 70px;
+	width: 2px;
+	background: #bd1c2b;
+	position: absolute;
+}
+
+.line::after{
+
+	content: "";
+	height: 12px;
+	width: 12px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 0;
+	left: -5px;
+	background: #bd1c2b;
+}
+
+.posstick{
+	position: relative !important;
+	margin-bottom: 40px;
+	top: 0px !important;
+	 margin-right: 0px !important;
+}
+.wrapper-coments{
+	width: 400px;
+}
+
+
+.text3{
+text-align: justify;
+}
+
+@media(max-width: 768px){
+
+	#content, #sidebar,.wrapper-coments, #commentform textarea{
+		width: 100%;
+	}
+	#content{
+		padding-right: 0
+	}
+	.sticky-wrapper{
+		margin-right: 0px;
+		height: auto !important;
+	}
+	.fixclass{
+		max-width: initial
+	}
+
+}
+
+#commentform label{
+	display: block;
+	padding-bottom: 5px;
+}
+@media(max-width: 585px){
+#comments h2{
+	    margin: 40px 0 0 0px;
+
+	}
+	#commentform{
+		margin-left: 0px;
+	}
+	#commentform input{
+
+width: 100%;
+	}
+
+.fat_burn_img{
+	height: 555px;
+background: url(../images/1.png) 50% 0 no-repeat,url(../images/2.png) 50% 100% no-repeat;
+
+}
+.line{
+	display: block
+}
+
+.line-l{
+	height: 75px;
+	top: -75px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    transform: rotate(180deg);
+}
+.line-r{
+	bottom: -154px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    height: 160px;
+
+}
+
+.fat_burn_imt_txt1{
+	    margin-left: 0px;
+    position: relative; 
+        width: 30%;
+    top: 9px;
+}
+.fat_burn_imt_txt2{
+
+
+	    margin-left: 0px;
+    position: absolute;
+    margin-top: 240px;
+    width: 26%;
+    font-size: 9px;
+    
+}
+.fat_burn_imt_txt4{
+
+	   margin-left: 0px;
+   position: absolute; 
+     margin-top: 0px; 
+    font-size: 11px;
+   width: 30%;
+        right: 0;
+    top: 8px;
+}
+.fat_burn_imt_txt5{
+margin-left:0;
+right: 0;
+width: 29%;
+text-align: right;
+}
+
+
+/*.fat_burn_imt_txt3::after{
+	content: "";
+height: 30px;
+width: 1px;
+background: red;
+position: absolute;
+top: -30px;
+left: 0;
+right: 0;
+margin: auto;
+
+}*/
+}
+
+@media(max-width: 420px){
+
+a img{
+	height: 100%;width: 100%;
+}
+}
+
+
+
+@media(max-width: 368px){
+
+	.fat_burn_img{
+
+		height: 580px
+	}
+	.line-r{
+	bottom: -167px;
+    height: 175px;
+
+}
+}
+
+.togglemenuli{
+	float: none !important;
+	text-align: center;
+	background: none !important;
+	//padding: 10px !important;
+}
+.togglemenuul{
+	margin: 40px 0 0 -40px !important;
+	height: 0px;
+}
+
+.but-taggle{
+	display: none;
+	position: absolute;
+	font-size: 24px;
+	margin: 8px;
+	cursor: pointer;
+	color: white;
+}
+
+.ulanim{
+	transition: all 0.4s ease 
+}
+
+@media(max-width: 467px){
+
+	#navbar li{	float: none !important;
+	text-align: center;
+	background: none !important;}
+	#navbar ul{
+		margin: 40px 0 0 -40px !important;
+	height: 0px;
+	}
+	.but-taggle{
+		display: block
+	}
+}
+
+.treal{
+	font-weight: bold;
+	font-size : 18px;
+	color: black
+}
+
+.img_sidebar{
+padding-bottom: 4px;
+width: 70%;
+}
+
+
+#fnt{animation: animatext 1s linear infinite}
+
+@keyframes animatext{
+	0%,40%{color: black}
+	50%,100%{
+		color: red
+	}
+}
+
+.wrapanimtreal{
+	text-align: center;
+}
+
+.block-free{
+	border: 3px dashed #74963E;
+	 background-color: #edfcd5;
+	  padding: 8px;
+}
